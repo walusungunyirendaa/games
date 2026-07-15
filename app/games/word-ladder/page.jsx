@@ -5,21 +5,21 @@ import { Button } from "@/components/ui/button";
 import { issueUrl } from "@/app/games/_lib/loader";
 
 // 🚧 PLACEHOLDER — this game hasn't been built yet.
-// If you claimed "Chess", replace everything in this file with your game.
+// If you claimed "Word Ladder", replace everything in this file with your game.
 // See app/games/tic-tac-toe/ for a complete worked example, and CONTRIBUTING.md.
-export default function ChessPage() {
+export default function WordLadderPage() {
   return (
     <div className="mx-auto max-w-md py-12">
       <Card>
         <CardHeader>
           <div className="flex items-center justify-between gap-2">
-            <CardTitle>Chess</CardTitle>
-            <Badge variant="secondary">hard</Badge>
+            <CardTitle>Word Ladder</CardTitle>
+            <Badge variant="secondary">medium</Badge>
           </div>
         </CardHeader>
         <CardContent className="text-muted-foreground space-y-4 text-sm">
           <p className="text-foreground text-base">
-            {"Full chess with legal-move validation and checkmate."}
+            {"Change one letter at a time to get from the start word to the target."}
           </p>
           <p>🚧 This game hasn&apos;t been built yet.</p>
           <p>

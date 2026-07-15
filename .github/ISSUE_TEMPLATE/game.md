@@ -35,7 +35,6 @@ label (easy / medium / hard).
 - [ ] Turn or score indicator where relevant
 - [ ] "Back to arcade" link works (provided by the shared layout)
 - [ ] `meta.js` filled in (title, difficulty, author, github, `status: "done"`)
-- [ ] At least one unit test in your game folder
 
 ## Stretch goals (optional)
 

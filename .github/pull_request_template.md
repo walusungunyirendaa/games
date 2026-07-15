@@ -17,6 +17,5 @@ Closes #<!-- your game's issue number -->
 - [ ] "New game" / reset works
 - [ ] "Back to arcade" link works
 - [ ] `meta.js` is filled in and `status` is `"done"`
-- [ ] I added at least one unit test
 - [ ] I only changed files inside `app/games/<my-slug>/`
-- [ ] `npm run format:check`, `npm run lint`, `npm run build`, and `npm run test:run` all pass locally
+- [ ] `npm run format:check`, `npm run lint`, and `npm run build` all pass locally

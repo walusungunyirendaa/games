@@ -5,21 +5,21 @@ import { Button } from "@/components/ui/button";
 import { issueUrl } from "@/app/games/_lib/loader";
 
 // 🚧 PLACEHOLDER — this game hasn't been built yet.
-// If you claimed "Asteroids", replace everything in this file with your game.
+// If you claimed "Etch A Sketch", replace everything in this file with your game.
 // See app/games/tic-tac-toe/ for a complete worked example, and CONTRIBUTING.md.
-export default function AsteroidsPage() {
+export default function EtchASketchPage() {
   return (
     <div className="mx-auto max-w-md py-12">
       <Card>
         <CardHeader>
           <div className="flex items-center justify-between gap-2">
-            <CardTitle>Asteroids</CardTitle>
-            <Badge variant="secondary">hard</Badge>
+            <CardTitle>Etch A Sketch</CardTitle>
+            <Badge variant="secondary">easy</Badge>
           </div>
         </CardHeader>
         <CardContent className="text-muted-foreground space-y-4 text-sm">
           <p className="text-foreground text-base">
-            {"Fly, rotate and shoot the drifting rocks apart."}
+            {"Draw on a grid with directional controls; shake to clear."}
           </p>
           <p>🚧 This game hasn&apos;t been built yet.</p>
           <p>

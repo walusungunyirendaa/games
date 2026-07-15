@@ -51,7 +51,8 @@ export async function getAllGames() {
  * The GitHub repository the issues live in, used to link placeholder games to
  * their spec. Set NEXT_PUBLIC_REPO_URL in Vercel/`.env` once the repo exists.
  */
-export const REPO_URL = process.env.NEXT_PUBLIC_REPO_URL ?? "https://github.com/akirachix/games";
+export const REPO_URL =
+  process.env.NEXT_PUBLIC_REPO_URL ?? "https://github.com/mainawycliffe/games";
 
 export function issueUrl(issue) {
   if (!issue) return `${REPO_URL}/issues`;

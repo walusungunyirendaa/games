@@ -54,17 +54,7 @@ export default meta;
 
 Setting `status: "done"` makes your card on the homepage link to your playable game.
 
-### 6. Write at least one test
-
-Add a `*.test.jsx` file in your folder. Test your game logic (easiest if you keep it in a
-separate `logic.js` like the example). Run tests locally:
-
-```bash
-npm test          # watch mode
-npm run test:run  # run once
-```
-
-### 7. Check everything passes locally
+### 6. Check everything passes locally
 
 CI will run these on your PR — run them first so there are no surprises:
 
@@ -72,10 +62,9 @@ CI will run these on your PR — run them first so there are no surprises:
 npm run format:check   # formatting (fix with: npm run format)
 npm run lint           # linting
 npm run build          # production build — a broken game fails here
-npm run test:run       # your tests
 ```
 
-### 8. Open a pull request
+### 7. Open a pull request
 
 ```bash
 git add app/games/<your-slug>
@@ -87,7 +76,7 @@ Open the PR on GitHub. In the description write **`Closes #<your-issue-number>`*
 game issue closes automatically when it merges. A **Vercel preview link** will appear on the
 PR — click it to play your game live, and paste it into the PR description.
 
-### 9. Review & merge
+### 8. Review & merge
 
 Your instructor reviews the PR. Once approved and all checks are green, it's merged and your
 game goes live on the arcade. 🎉
